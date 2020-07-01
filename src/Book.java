@@ -27,5 +27,15 @@ public class Book extends Product {
         return msg = msg +"Pages:               " + pages + "\n" +
                 "Author:              " + author+ "\n";
     }
+    //Overload
+    public boolean equals(String code,String author,int pages) {
+        if(code.equalsIgnoreCase(this.code)&&(author.equalsIgnoreCase(this.author))&&(pages==this.pages))
+        {
+            return true;
+        }else
+        {
+            return false;
+        }
     }
+}
 

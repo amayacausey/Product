@@ -35,7 +35,13 @@ public class Software extends Product {
 
         String msg = super.toString();
         return msg = msg +"Os:                 " + os + "\n" +
-                "Platform:           " +platform+ "\n";
+                "Platform:           " +platform+ "\n"
+                +"Programmer:           " +programmer+ "\n";
+    }
+
+    @Override
+    public boolean equals(String programmer) {
+        return this.programmer.equals(programmer);
     }
 }
 

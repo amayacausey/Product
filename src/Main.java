@@ -24,9 +24,11 @@ public static void main(String[] args){
         s.setPrice(10.99);
         s.setOs("Windows 10");
         s.setPlatform("Hp");
+        s.setProgrammer("Amaya");
 
 
         System.out.println(b.toString());
         System.out.println(c.toString());
         System.out.println(s.toString());
+        System.out.println(b.equals("5644","Judy",100));
         }}

@@ -56,4 +56,14 @@ public class Product {
     public static int getCount() {
         return count;
     }
+
+
+    public boolean equals(String code) {
+        if (code.equalsIgnoreCase(this.code)) {
+            return true;
+        }else
+        {
+            return false;
+        }
+    }
 }
