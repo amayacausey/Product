@@ -30,6 +30,13 @@ public class Software extends Product {
     public String getOs(){
         return this.os;
     }
+    //Override
+    public String toString() {
 
+        String msg = super.toString();
+        return msg = msg +"Os:                 " + os + "\n" +
+                "Platform:           " +platform+ "\n";
+    }
 }
+
 

@@ -14,12 +14,17 @@ public static void main(String[] args){
         c.setCode("8654");
         c.setDescription("This book will explore the pros and cons of learning Java.");
         c.setPrice(4.99);
+        c.setPages(1000);
+        c.setAuthor("May");
 
         Software s = new Software();
         // use setters to set values
         s.setCode("7592");
         s.setDescription("This book well tell you the best language to learn for optimal success.");
         s.setPrice(10.99);
+        s.setOs("Windows 10");
+        s.setPlatform("Hp");
+
 
         System.out.println(b.toString());
         System.out.println(c.toString());

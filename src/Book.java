@@ -20,6 +20,12 @@ public class Book extends Product {
     public int getPages(){
         return this.pages;
     }
+    //Override
+    public String toString() {
 
-}
+        String msg = super.toString();
+        return msg = msg +"Pages:               " + pages + "\n" +
+                "Author:              " + author+ "\n";
+    }
+    }
 
